@@ -1,0 +1,82 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar a {
+    color: rgb(10, 8, 5);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:normal;
+    margin: 5%;
+}
+
+.navbar .rightside {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    justify-content: center;
+}
+
+
+.navbar .leftside {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .leftside img {
+    width: 160px;
+}
+
+.navbar .leftside .brandname {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: rgb(10,8,5);
+}
+
+
+@media only screen and (max-width: 900px) {
+    .navbar .rightside a {
+        width: 70px;
+
+    }
+
+    .navbar .leftside {
+        padding-left: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar .rightside a {
+        display: none;
+    }
+
+    .navbar .rightside {
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+
+    .navbar .rightside button {
+        display: inherit;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar .rightside button {
+        display: none;
+
+    }
+    
+    .hiddenLinks {
+        display: none;
+    }
+}

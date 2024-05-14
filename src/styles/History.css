@@ -1,0 +1,37 @@
+.history {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.part1 h1 {
+    padding-right: 0%;
+    font-size: 50px;
+}
+
+.part1 p {
+    font-size: 15px;
+}
+
+.part2 {
+    text-align: left;
+    font-size: 18px;
+    padding-right: 0%;
+
+}
+
+.part3 {
+    text-align: left;
+    font-size: 18px;
+    padding-right: 0%;
+}
+
+.part4 {
+    text-align: left;
+    font-size: 18px;
+    padding-right: 0%;
+}
+
+.part5 {
+    text-align: left;
+    font-size: 18px;
+    padding-right: 0%;
+}
